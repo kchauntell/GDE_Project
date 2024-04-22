@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDE Webb Project</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1> What's The Weather Looking Like TAHDay!?</h1>
+        <img src="weather-images.jpg" alt="main image">
+        <p> Enter your Zip to see what your day looks like:</p>
+        <form action="#" method="post">
+            <label for="name">ZIP Code:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+    <div id="spinner" class="spinner" style="display: none;"></div>
+    <div id="answer" style="display: none;">
+        <h2>What it is looking like right now!</h2>
+        <span id="Location">910</span><br>
+        <span id="Temperature">75</span><br>
+        <span id="Weather"></span><br>
+        <span id="Suggestion"></span><br>
+        <button type="button" id="close-answer">Close</button>
+    </div>
+
+</body>
+</html>

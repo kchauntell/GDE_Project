@@ -1372,3 +1372,43 @@
 [Time: 2024-04-22 15:12:13,621, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 15:12:13] "[36mGET /script.js HTTP/1.1[0m" 304 -
 [Time: 2024-04-22 15:12:13,623, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 15:12:13] "[36mGET /style.css HTTP/1.1[0m" 304 -
 [Time: 2024-04-22 15:12:13,648, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 15:12:13] "[36mGET /weather-images.jpg HTTP/1.1[0m" 304 -
+[Time: 2024-04-22 22:33:27,765, File: _internal.py:96, Function: _log] INFO -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.23.121.183:8080
+[Time: 2024-04-22 22:33:27,766, File: _internal.py:96, Function: _log] INFO -  [33mPress CTRL+C to quit[0m
+[Time: 2024-04-22 22:33:27,767, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-22 22:33:29,250, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-22 22:33:29,256, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 159-376-948
+[Time: 2024-04-22 22:33:37,397, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 22:33:37] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-22 22:33:37,453, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 22:33:37] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-22 22:33:37,453, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 22:33:37] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-22 22:33:37,472, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 22:33:37] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-22 22:34:30,998, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28306
+[Time: 2024-04-22 22:34:31,002, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-22 22:34:31,468, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28306 HTTP/1.1" 401 None
+[Time: 2024-04-22 22:34:31,481, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 22:34:31] "[35m[1mGET /get_weather?zip=28306 HTTP/1.1[0m" 500 -
+[Time: 2024-04-22 22:35:01,934, File: _internal.py:96, Function: _log] INFO -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.23.121.183:8080
+[Time: 2024-04-22 22:35:01,935, File: _internal.py:96, Function: _log] INFO -  [33mPress CTRL+C to quit[0m
+[Time: 2024-04-22 22:35:01,936, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-22 22:35:03,313, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-22 22:35:03,314, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 159-376-948
+[Time: 2024-04-22 22:35:04,291, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 22:35:04] "[36mGET / HTTP/1.1[0m" 304 -
+[Time: 2024-04-22 22:35:04,341, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 22:35:04] "[36mGET /script.js HTTP/1.1[0m" 304 -
+[Time: 2024-04-22 22:35:04,342, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 22:35:04] "[36mGET /style.css HTTP/1.1[0m" 304 -
+[Time: 2024-04-22 22:35:04,379, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 22:35:04] "[36mGET /weather-images.jpg HTTP/1.1[0m" 304 -
+[Time: 2024-04-22 22:35:08,327, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28306
+[Time: 2024-04-22 22:35:08,330, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-22 22:35:08,933, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28306 HTTP/1.1" 200 348
+[Time: 2024-04-22 22:35:08,935, File: weather.py:14, Function: __init__] INFO -  Weather for 28306 retrieved
+[Time: 2024-04-22 22:35:08,936, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28306
+[Time: 2024-04-22 22:35:08,936, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 61.0 degrees Fahrenheit with 35% humidity.
+[Time: 2024-04-22 22:35:08,938, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-22 22:35:09,170, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-22 22:35:09,346, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-22 22:35:09,387, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-22 22:35:11,359, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-22 22:35:12,458, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 22:35:12] "GET /get_weather?zip=28306 HTTP/1.1" 200 -

@@ -1412,3 +1412,35 @@
 [Time: 2024-04-22 22:35:09,387, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
 [Time: 2024-04-22 22:35:11,359, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
 [Time: 2024-04-22 22:35:12,458, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 22:35:12] "GET /get_weather?zip=28306 HTTP/1.1" 200 -
+[Time: 2024-04-22 22:59:50,967, File: _internal.py:96, Function: _log] INFO -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.23.121.183:8080
+[Time: 2024-04-22 22:59:50,968, File: _internal.py:96, Function: _log] INFO -  [33mPress CTRL+C to quit[0m
+[Time: 2024-04-22 22:59:50,969, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-22 22:59:52,405, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-22 22:59:52,406, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 159-376-948
+[Time: 2024-04-22 23:00:36,532, File: _internal.py:96, Function: _log] INFO -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.23.121.183:8080
+[Time: 2024-04-22 23:00:36,532, File: _internal.py:96, Function: _log] INFO -  [33mPress CTRL+C to quit[0m
+[Time: 2024-04-22 23:00:36,533, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-22 23:00:37,846, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-22 23:00:37,847, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 159-376-948
+[Time: 2024-04-22 23:00:40,874, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 23:00:40] "[36mGET / HTTP/1.1[0m" 304 -
+[Time: 2024-04-22 23:00:40,944, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 23:00:40] "[36mGET /script.js HTTP/1.1[0m" 304 -
+[Time: 2024-04-22 23:00:40,944, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 23:00:40] "[36mGET /style.css HTTP/1.1[0m" 304 -
+[Time: 2024-04-22 23:00:40,951, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 23:00:40] "[36mGET /weather-images.jpg HTTP/1.1[0m" 304 -
+[Time: 2024-04-22 23:00:46,242, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-22 23:00:46,245, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-22 23:00:46,810, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 346
+[Time: 2024-04-22 23:00:46,812, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-22 23:00:46,813, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-22 23:00:46,813, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 61.0 degrees Fahrenheit with 35% humidity.
+[Time: 2024-04-22 23:00:46,815, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-22 23:00:47,061, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-22 23:00:47,247, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-22 23:00:47,290, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-22 23:00:48,412, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-22 23:00:49,349, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [22/Apr/2024 23:00:49] "GET /get_weather?zip=28348 HTTP/1.1" 200 -

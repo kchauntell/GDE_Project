@@ -17,4 +17,15 @@ To run containerized:
   - once launched, go to http://localhost:8080
   - Enter zipcode you desire, hit enter or click submit
 
+
+#How to Run Testing App
+  - make sure to add API Key to config.file
+  - run app.py
+  - go into Testing Directory/Folder from command line. (cd /Testing)
+  - run test app using command :
+    - python3 testapp.py --zip '{zip_code}' --location '{city_name_to_compare_results}' --app_address http://localhost:8080
+  - Should get response in terminal with "Test Passed" or "Test Failed"
+
+
+
 Application is listening on port 8080: http://localhost:8080/

@@ -4,8 +4,6 @@ from model import tierOneModel
 
 app = Flask(__name__)
 
-
-
 @app.route('/', methods=['GET'])
 def main():
     return app.send_static_file('main.html')

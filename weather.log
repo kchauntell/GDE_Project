@@ -1,4 +1,4 @@
-[Time: 2024-04-22 04:17:39,856, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+git [Time: 2024-04-22 04:17:39,856, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
 [Time: 2024-04-22 04:17:39,860, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
 [Time: 2024-04-22 04:17:40,523, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 350
 [Time: 2024-04-22 04:17:40,525, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
@@ -1497,3 +1497,1306 @@
 [Time: 2024-04-23 17:56:55,798, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [23/Apr/2024 17:56:55] "[36mGET /style.css HTTP/1.1[0m" 304 -
 [Time: 2024-04-23 17:56:55,800, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [23/Apr/2024 17:56:55] "[36mGET /script.js HTTP/1.1[0m" 304 -
 [Time: 2024-04-23 17:56:55,937, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [23/Apr/2024 17:56:55] "[36mGET /weather-images.jpg HTTP/1.1[0m" 304 -
+[Time: 2024-04-30 16:09:24,815, File: _internal.py:96, Function: _log] INFO -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.23.121.183:8080
+[Time: 2024-04-30 16:09:24,816, File: _internal.py:96, Function: _log] INFO -  [33mPress CTRL+C to quit[0m
+[Time: 2024-04-30 16:09:24,817, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:09:26,097, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:09:26,099, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:09:36,629, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:09:36] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 16:09:36,699, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:09:36] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 16:09:36,709, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:09:36] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 16:09:36,720, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:09:36] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 16:10:14,141, File: _internal.py:96, Function: _log] INFO -  [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.23.121.183:8080
+[Time: 2024-04-30 16:10:14,142, File: _internal.py:96, Function: _log] INFO -  [33mPress CTRL+C to quit[0m
+[Time: 2024-04-30 16:10:14,142, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:10:15,515, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:10:15,516, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:10:18,155, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:10:18] "[36mGET / HTTP/1.1[0m" 304 -
+[Time: 2024-04-30 16:10:18,185, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:10:18] "[36mGET /script.js HTTP/1.1[0m" 304 -
+[Time: 2024-04-30 16:10:18,185, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:10:18] "[36mGET /style.css HTTP/1.1[0m" 304 -
+[Time: 2024-04-30 16:10:18,237, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:10:18] "[36mGET /weather-images.jpg HTTP/1.1[0m" 304 -
+[Time: 2024-04-30 16:10:19,393, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:10:19] "[36mGET / HTTP/1.1[0m" 304 -
+[Time: 2024-04-30 16:10:19,424, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:10:19] "[36mGET /style.css HTTP/1.1[0m" 304 -
+[Time: 2024-04-30 16:10:19,428, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:10:19] "[36mGET /script.js HTTP/1.1[0m" 304 -
+[Time: 2024-04-30 16:10:19,448, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:10:19] "[36mGET /weather-images.jpg HTTP/1.1[0m" 304 -
+[Time: 2024-04-30 16:10:27,435, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for Kendra Miller
+[Time: 2024-04-30 16:10:27,438, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 16:10:28,129, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=Kendra+Miller HTTP/1.1" 404 19
+[Time: 2024-04-30 16:10:28,141, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:10:28] "[35m[1mGET /get_weather?zip=Kendra%20Miller HTTP/1.1[0m" 500 -
+[Time: 2024-04-30 16:10:31,812, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:10:31] "[36mGET / HTTP/1.1[0m" 304 -
+[Time: 2024-04-30 16:10:31,850, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:10:31] "[36mGET /script.js HTTP/1.1[0m" 304 -
+[Time: 2024-04-30 16:10:31,852, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:10:31] "[36mGET /style.css HTTP/1.1[0m" 304 -
+[Time: 2024-04-30 16:10:31,881, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:10:31] "[36mGET /weather-images.jpg HTTP/1.1[0m" 304 -
+[Time: 2024-04-30 16:10:35,888, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28306
+[Time: 2024-04-30 16:10:35,890, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 16:10:36,262, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28306 HTTP/1.1" 200 353
+[Time: 2024-04-30 16:10:36,263, File: weather.py:14, Function: __init__] INFO -  Weather for 28306 retrieved
+[Time: 2024-04-30 16:10:36,264, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28306
+[Time: 2024-04-30 16:10:36,264, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 16:10:36,266, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 16:10:36,462, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:10:36,781, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:10:36,837, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:10:41,609, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:10:43,035, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:10:43] "GET /get_weather?zip=28306 HTTP/1.1" 200 -
+[Time: 2024-04-30 16:10:59,406, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:10:59,904, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:11:01,399, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:11:01,400, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:11:01,670, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:11:02,151, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:11:03,702, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:11:03,703, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:11:35,486, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:11:35] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 16:12:25,708, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:12:26,053, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:12:27,437, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:12:27,438, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:12:29,910, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:12:30,222, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:12:31,529, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:12:31,530, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:12:32,863, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:12:33,183, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:12:34,472, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:12:34,472, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:12:44,777, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:12:45,084, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:12:46,429, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:12:46,430, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:12:48,931, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:12:49,324, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:12:50,626, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:12:50,627, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:12:51,968, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:12:52,293, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:12:53,594, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:12:53,595, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:12:54,931, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:12:55,226, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:12:56,507, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:12:56,508, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:12:57,888, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:12:58,193, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:12:59,448, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:12:59,449, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:13:01,942, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:13:02,300, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:13:03,617, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:13:03,617, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:13:04,966, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:13:05,262, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:13:06,576, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:13:06,577, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:13:09,039, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:13:09,474, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:13:10,773, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:13:10,774, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:13:10,992, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:13:11,331, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:13:12,594, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:13:12,594, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:13:16,159, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:13:16,458, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:13:17,760, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:13:17,760, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:13:31,456, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:13:31,800, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:13:33,134, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:13:33,134, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:13:34,478, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:13:34,809, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:13:36,146, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:13:36,147, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:13:37,488, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:13:37,820, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:13:39,136, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:13:39,137, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:13:44,976, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:13:45,318, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:13:46,718, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:13:46,718, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:13:53,674, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:13:53,977, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:13:55,206, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:13:55,207, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:13:57,686, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:13:57,997, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:13:59,259, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:13:59,259, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:14:03,954, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:14:04,271, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:14:05,543, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:14:05,544, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:14:09,182, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:14:09,531, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:14:10,829, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:14:10,830, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:14:14,436, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:14:14,778, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:14:16,032, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:14:16,033, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:14:17,376, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:14:17,692, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:14:19,062, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:14:19,062, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:14:35,008, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:14:35,307, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:14:36,609, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:14:36,610, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:14:40,211, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:14:40,513, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:14:41,823, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:14:41,823, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:15:50,038, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:15:50] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 16:15:50,202, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:15:50] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 16:15:50,203, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:15:50] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 16:15:50,211, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:15:50] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 16:15:50,244, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:15:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 16:15:50,340, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 16:15:50,344, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 16:15:50,821, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 16:15:50,823, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 16:15:50,823, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 16:15:50,824, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 16:15:50,826, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 16:15:51,046, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:15:51,201, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:15:51,257, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:15:55,885, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:15:57,075, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:15:57] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 16:16:13,761, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:16:14,253, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:16:16,198, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:16:16,199, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:16:45,633, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:16:45,970, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:16:47,336, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:16:47,336, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:16:54,267, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:16:54,584, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:16:55,861, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:16:55,862, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:17:05,061, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:17:05] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 16:17:05,211, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:17:05] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 16:17:05,211, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:17:05] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 16:17:05,220, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:17:05] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 16:17:05,243, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:17:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 16:17:10,298, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 16:17:10,301, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 16:17:10,714, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 16:17:10,717, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 16:17:10,718, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 16:17:10,718, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 16:17:10,720, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 16:17:11,010, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:17:11,184, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:17:11,228, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:17:12,153, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:17:13,198, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:17:13] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 16:18:41,716, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:18:42,222, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:18:44,021, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:18:44,022, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:18:48,875, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:18:49,286, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:18:50,580, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:18:50,581, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:18:54,163, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:18:54,521, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:18:55,786, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:18:55,787, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:18:57,118, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:18:57,442, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:18:58,693, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:18:58,693, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:19:00,042, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:19:00,347, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:19:01,623, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:19:01,624, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:19:05,211, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:19:05,607, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:19:06,975, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:19:06,976, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:19:38,596, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:19:38,943, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:19:40,297, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:19:40,298, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:19:48,418, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:19:48,742, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:19:50,069, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:19:50,070, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:19:52,554, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:19:52,856, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:19:54,115, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:19:54,116, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:19:56,575, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:19:56,913, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:19:58,182, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:19:58,183, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:20:00,645, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:20:00,972, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:20:02,275, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:20:02,276, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:20:02,497, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:20:02,799, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:20:04,028, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:20:04,028, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:20:08,710, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:20:09,058, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:20:10,379, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:20:10,380, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:20:13,974, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:20:14,293, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:20:15,609, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:20:15,610, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:20:22,358, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:20:22] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 16:20:22,441, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:20:22] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 16:20:22,441, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:20:22] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 16:20:22,448, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:20:22] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 16:20:22,565, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:20:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 16:20:22,634, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 16:20:22,638, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 16:20:22,927, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 16:20:22,928, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 16:20:22,929, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 16:20:22,929, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 16:20:22,931, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 16:20:23,261, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:20:23,430, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:20:23,483, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:20:24,323, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:20:25,391, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:20:25] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 16:21:09,254, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:21:09,756, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:21:11,088, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:21:11,089, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:21:18,053, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:21:18,389, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:21:19,744, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:21:19,745, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:21:22,211, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:21:22,599, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:21:23,942, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:21:23,943, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:21:55,868, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:21:55] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 16:21:56,087, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:21:56] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 16:21:56,087, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:21:56] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 16:21:56,092, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:21:56] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 16:21:56,106, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:21:56] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 16:21:56,162, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 16:21:56,165, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 16:21:56,492, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 16:21:56,493, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 16:21:56,494, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 16:21:56,494, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 16:21:56,496, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 16:21:56,802, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:21:56,982, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:21:57,068, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:21:57,945, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:21:59,155, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:21:59] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 16:23:11,322, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:23:11,806, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:23:13,158, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:23:13,159, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:23:16,741, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:23:17,061, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:23:18,461, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:23:18,462, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:23:24,291, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:23:24,611, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:23:25,959, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:23:25,960, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:23:27,290, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:23:27,608, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:23:28,975, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:23:28,975, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:23:34,803, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:23:35,134, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:23:36,483, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:23:36,483, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:23:41,383, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:23:41] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 16:23:41,580, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:23:41] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 16:23:41,580, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:23:41] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 16:23:41,586, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:23:41] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 16:23:41,599, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:23:41] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 16:23:41,672, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 16:23:41,675, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 16:23:41,981, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 16:23:41,983, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 16:23:41,984, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 16:23:41,984, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 16:23:41,986, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 16:23:42,202, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:23:42,356, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:23:42,417, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:23:43,424, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:23:44,360, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:23:44] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 16:24:23,788, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:24:24,360, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:24:25,809, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:24:25,810, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:24:29,492, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:24:29,852, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:24:31,164, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:24:31,164, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:24:37,654, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:24:37] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 16:24:37,801, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:24:37] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 16:24:37,802, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:24:37] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 16:24:37,809, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:24:37] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 16:24:37,832, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:24:37] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 16:24:37,895, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 16:24:37,898, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 16:24:38,376, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 16:24:38,379, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 16:24:38,379, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 16:24:38,379, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 16:24:38,381, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 16:24:38,533, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:24:38,734, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:24:38,783, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:24:39,556, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:24:40,329, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:24:40] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 16:25:07,658, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:25:08,117, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:25:09,459, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:25:09,460, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:25:11,925, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:25:12,288, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:25:13,755, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:25:13,756, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:25:16,270, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:25:16,623, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:25:17,912, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:25:17,912, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:25:20,360, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:25:20,702, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:25:22,025, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:25:22,026, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:25:24,542, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:25:24,908, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:25:26,229, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:25:26,230, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:25:29,821, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:25:30,194, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:25:31,559, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:25:31,560, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:25:32,898, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:25:33,275, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:25:34,589, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:25:34,590, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:25:40,424, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:25:40,771, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:25:42,075, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:25:42,076, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:25:59,123, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:25:59,506, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:26:00,871, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:26:00,871, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:26:14,595, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:26:14,997, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:26:16,341, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:26:16,341, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:26:33,310, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:26:33,646, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:26:34,925, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:26:34,926, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:26:37,386, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:26:37,723, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:26:38,972, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:26:38,973, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:26:46,998, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:26:47,359, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:26:48,628, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:26:48,629, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:26:54,943, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:26:54] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 16:26:55,119, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:26:55] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 16:26:55,120, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:26:55] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 16:26:55,126, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:26:55] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 16:26:55,140, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:26:55] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 16:26:55,202, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 16:26:55,204, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 16:26:55,485, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 16:26:55,487, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 16:26:55,487, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 16:26:55,488, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 16:26:55,490, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 16:26:55,683, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:26:55,845, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:26:55,885, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:26:56,533, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:26:57,771, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:26:57] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 16:36:01,160, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:36:01,818, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:36:04,677, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:36:04,678, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:36:18,812, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:36:19,305, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:36:21,723, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:36:21,724, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:36:24,597, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:36:25,163, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:36:27,525, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:36:27,526, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:36:30,381, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:36:31,029, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:36:33,480, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:36:33,481, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:36:35,156, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:36:35,808, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:36:38,232, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:36:38,234, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:36:39,838, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:36:40,335, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:36:42,662, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:36:42,664, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:36:56,647, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:36:57,195, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:36:59,460, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:36:59,461, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:37:06,047, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:37:06,618, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:37:09,056, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:37:09,057, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:37:12,013, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:37:12,637, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:37:15,134, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:37:15,135, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:37:19,224, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:37:19,983, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:37:22,395, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:37:22,397, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:37:24,034, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:37:24,642, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:37:26,886, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:37:26,887, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:37:29,824, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:37:30,443, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:37:32,731, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:37:32,732, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:37:36,841, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:37:37,581, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:37:39,992, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:37:39,993, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:37:42,897, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:37:43,638, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:37:45,980, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:37:45,981, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:38:00,172, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:38:00,731, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:38:03,021, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:38:03,022, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:38:04,675, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:38:05,238, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:38:07,521, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:38:07,522, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:38:21,674, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:38:22,332, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:38:24,746, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:38:24,747, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:38:25,151, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:38:25,626, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:38:27,941, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:38:27,942, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:38:28,403, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:38:28,808, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:38:31,122, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:38:31,122, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:38:32,670, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:38:33,110, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:38:35,523, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:38:35,524, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:38:39,678, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:38:40,295, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:38:42,653, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:38:42,654, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:38:44,317, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:38:45,036, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:38:47,481, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:38:47,482, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:38:50,358, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:38:50,907, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:38:53,519, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:38:53,520, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:39:25,156, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:39:25,824, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:39:28,115, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:39:28,116, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:39:29,783, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:39:30,369, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:39:32,655, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:39:32,657, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:39:36,784, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:39:37,286, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:39:39,673, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:39:39,674, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:40:48,625, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:40:49,423, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:40:51,787, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:40:51,799, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:40:59,679, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:41:00,268, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:41:02,534, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:41:02,535, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:41:06,666, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:41:07,338, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:41:09,600, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:41:09,601, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:41:16,260, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:41:16,779, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:41:19,074, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:41:19,076, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:42:45,484, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:42:46,057, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:42:48,561, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:42:48,563, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:42:50,651, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:42:50] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 16:42:50,744, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:42:50] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 16:42:50,744, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:42:50] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 16:42:50,754, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:42:50] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 16:42:50,785, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:42:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 16:42:50,878, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 16:42:50,883, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 16:42:51,323, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 16:42:51,326, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 16:42:51,327, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 16:42:51,328, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 16:42:51,331, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 16:42:51,551, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:42:51,817, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:42:51,865, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:42:53,110, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:42:54,508, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:42:54] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 16:43:14,549, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:43:15,274, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:43:17,857, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:43:17,858, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:43:19,108, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:43:19] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 16:43:19,206, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:43:19] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 16:43:19,206, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:43:19] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 16:43:19,217, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:43:19] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 16:43:19,246, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:43:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 16:43:19,337, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 16:43:19,341, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 16:43:19,659, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 16:43:19,662, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 16:43:19,663, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 16:43:19,664, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 16:43:19,667, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 16:43:19,829, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:43:20,084, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:43:20,220, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:43:21,510, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:43:22,979, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:43:22] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 16:43:45,347, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:43:46,025, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:43:48,695, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:43:48,696, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:44:30,604, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:44:31,319, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:44:33,773, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:44:33,774, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:44:36,749, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:44:37,242, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:44:39,592, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:44:39,594, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:44:41,262, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:44:41,702, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:44:44,113, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:44:44,115, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:45:09,473, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:45:09,993, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:45:12,491, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:45:12,492, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:45:24,145, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:45:24,759, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:45:27,113, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:45:27,114, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:45:28,780, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:45:29,282, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:45:31,555, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:45:31,559, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:45:34,489, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:45:35,123, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:45:37,491, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:45:37,492, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:45:42,889, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:45:43,481, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:45:45,719, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:45:45,720, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:45:47,386, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:45:48,011, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:45:50,471, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:45:50,472, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:45:52,129, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:45:52,668, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:45:55,066, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:45:55,067, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:45:59,287, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:45:59,884, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:46:02,285, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:46:02,286, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:46:13,757, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:46:14,391, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:46:16,726, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:46:16,727, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:46:22,212, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:46:22,881, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:46:25,426, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:46:25,427, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:46:55,699, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:46:56,430, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:46:58,893, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:46:58,894, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:47:24,278, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:47:24,888, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:47:27,252, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:47:27,254, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:47:38,950, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:47:39,708, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:47:42,090, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:47:42,091, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:47:43,844, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:47:44,587, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:47:47,016, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:47:47,017, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:47:48,731, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:47:49,373, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:47:51,730, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:47:51,731, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:47:53,439, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:47:53,935, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:47:56,453, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:47:56,455, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:48:05,483, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:48:05,975, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:48:08,551, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:48:08,553, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:48:27,488, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:48:28,197, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:48:30,409, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:48:30,411, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:48:35,787, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:48:36,366, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:48:38,645, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:48:38,646, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:48:42,965, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:48:43,522, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:48:45,948, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:48:45,950, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:48:47,635, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:48:48,247, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:48:50,781, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:48:50,785, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:48:52,550, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:48:53,093, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:48:55,580, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:48:55,581, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:49:14,585, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:49:15,073, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:49:17,585, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:49:17,587, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:49:19,274, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:49:19,723, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:49:22,221, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:49:22,223, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:49:30,009, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:49:30,578, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:49:33,010, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:49:33,011, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:49:44,640, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:49:45,172, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:49:47,669, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:49:47,671, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:49:49,373, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:49:49,929, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:49:52,375, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:49:52,376, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:50:04,037, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/app.py', reloading
+[Time: 2024-04-30 16:50:04,542, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:50:06,931, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:50:06,933, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:51:34,300, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:51:34,816, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:51:37,319, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:51:37,321, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:51:54,071, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:51:54,672, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:51:57,148, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:51:57,149, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:52:15,058, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:52:15,723, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:52:18,195, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:52:18,196, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:52:29,979, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:52:30,550, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:52:32,965, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:52:32,966, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:52:37,098, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:52:37,828, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:52:40,092, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:52:40,093, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:52:56,784, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:52:57,396, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:52:59,864, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:52:59,865, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:53:07,914, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:53:08,534, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:53:10,841, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:53:10,842, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:53:14,980, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:53:15,675, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:53:18,018, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:53:18,019, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:53:20,995, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:53:21,714, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:53:24,046, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:53:24,047, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:53:25,751, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:53:26,332, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:53:28,831, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:53:28,832, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:53:36,677, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:53:37,292, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:53:39,761, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:53:39,762, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:53:41,494, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:53:41,970, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:53:44,380, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:53:44,381, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:53:51,283, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:53:51,830, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:53:54,329, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:53:54,330, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:54:03,450, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:54:04,041, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:54:06,590, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:54:06,591, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:54:10,763, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:54:11,246, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:54:13,771, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:54:13,772, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:54:17,958, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:54:18,427, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:54:20,878, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:54:20,879, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:54:23,766, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:54:24,369, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:54:26,880, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:54:26,882, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:55:19,626, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:55:20,118, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:55:22,687, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:55:22,688, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:55:38,077, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:55:38,569, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:55:41,169, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:55:41,170, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:55:42,829, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:55:43,355, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:55:45,911, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:55:45,912, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:56:07,715, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:56:08,176, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:56:10,580, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:56:10,581, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:56:17,214, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:56:17,721, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:56:20,235, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:56:20,236, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:58:08,683, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:58:09,152, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:58:11,588, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:58:11,589, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:58:14,496, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:58:15,044, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:58:17,752, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:58:17,754, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:58:20,734, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 16:58:21,429, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 16:58:24,054, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 16:58:24,055, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 16:58:40,353, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:58:40] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 16:58:40,441, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:58:40] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 16:58:40,442, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:58:40] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 16:58:40,466, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:58:40] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 16:58:40,481, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:58:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 16:58:40,571, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 16:58:40,575, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 16:58:41,048, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 16:58:41,051, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 16:58:41,052, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 16:58:41,053, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 16:58:41,057, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 16:58:41,287, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:58:41,547, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:58:41,602, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:58:43,219, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 16:58:45,432, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 16:58:45] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 17:01:26,100, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/test_logs.py', reloading
+[Time: 2024-04-30 17:01:26,796, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:01:29,340, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:01:29,341, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:01:34,880, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/test_logs.py', reloading
+[Time: 2024-04-30 17:01:35,384, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:01:37,818, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:01:37,820, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:01:45,706, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/test_logs.py', reloading
+[Time: 2024-04-30 17:01:46,270, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:01:48,868, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:01:48,870, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:01:54,422, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/test_logs.py', reloading
+[Time: 2024-04-30 17:01:55,154, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:01:57,373, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:01:57,374, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:02:02,729, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/test_logs.py', reloading
+[Time: 2024-04-30 17:02:03,485, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:02:05,928, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:02:05,930, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:02:23,792, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/test_logs.py', reloading
+[Time: 2024-04-30 17:02:24,390, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:02:26,773, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:02:26,775, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:02:42,167, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:02:42,652, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:02:45,161, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:02:45,162, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:03:06,904, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:03:07,460, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:03:09,897, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:03:09,898, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:03:20,286, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:03:20,770, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:03:23,262, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:03:23,263, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:03:26,289, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:03:26,979, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:03:29,562, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:03:29,563, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:03:57,592, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:03:58,285, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:04:00,528, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:04:00,529, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:04:02,183, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:04:02,726, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:04:05,130, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:04:05,131, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:04:05,519, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:04:05,944, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:04:08,354, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:04:08,355, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:04:10,047, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:04:10,737, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:04:13,170, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:04:13,171, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:04:16,091, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:04:16,744, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:04:19,148, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:04:19,149, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:04:25,693, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:04:26,140, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:04:28,669, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:04:28,671, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:04:37,741, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:04:38,225, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:04:40,713, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:04:40,714, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:04:47,521, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:04:48,245, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:04:50,595, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:04:50,596, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:04:53,507, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:04:54,107, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:04:56,422, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:04:56,424, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:05:01,904, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:05:02,607, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:05:04,918, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:05:04,919, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:05:06,536, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:05:06,965, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:05:09,371, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:05:09,373, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:05:11,035, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:05:11,740, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:05:14,204, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:05:14,206, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:05:15,896, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:05:16,372, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:05:18,674, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:05:18,675, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:05:25,451, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:05:26,012, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:05:28,403, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:05:28,404, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:05:33,882, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:05:34,489, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:05:36,957, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:05:36,959, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:05:41,140, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:05:41,953, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:05:44,117, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:05:44,118, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:05:45,754, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:05:46,243, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:05:48,568, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:05:48,569, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:05:53,901, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:05:54,601, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:05:56,950, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:05:56,951, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:05:59,795, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:06:00,372, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:06:02,603, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:06:02,604, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:06:06,672, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:06:07,260, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:06:09,528, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:06:09,529, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:06:09,943, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:06:10,440, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:06:12,738, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:06:12,740, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:06:16,926, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:06:17,690, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:06:19,971, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:06:19,972, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:06:34,338, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:06:34,905, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:06:37,443, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:06:37,444, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:06:39,140, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:06:39,717, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:06:42,312, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:06:42,313, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:06:47,727, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:06:48,176, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:06:50,478, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:06:50,479, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:07:07,117, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:07:07,903, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:07:10,330, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:07:10,331, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:07:13,200, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:07:13,928, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:07:16,366, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:07:16,367, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:07:18,059, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:07:18,735, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:07:21,145, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:07:21,147, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:07:24,009, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:07:24,766, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:07:27,269, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:07:27,274, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:07:31,464, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:07:32,092, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:07:34,508, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:07:34,512, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:07:41,288, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:07:41,971, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:07:44,393, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:07:44,394, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:07:47,428, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:07:48,151, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:07:50,600, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:07:50,602, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:07:54,723, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:07:55,386, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:07:57,756, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:07:57,758, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:08:05,756, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:08:06,525, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:08:09,050, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:08:09,051, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:08:12,001, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:08:12,466, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:08:14,911, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:08:14,912, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:08:22,799, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:08:23,404, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:08:25,881, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:08:25,883, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:08:35,112, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:08:35,612, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:08:37,974, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:08:37,975, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:08:49,599, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:08:50,210, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:08:52,742, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:08:52,743, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:08:55,594, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:08:56,260, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:08:58,565, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:08:58,567, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:09:03,876, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:09:04,440, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:09:06,846, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:09:06,848, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:09:09,696, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:09:10,367, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:09:12,529, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:09:12,534, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:09:14,173, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:09:14,587, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:09:16,860, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:09:16,861, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:09:22,203, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:09:22,755, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:09:25,165, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:09:25,166, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:09:29,367, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:09:30,122, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:09:32,435, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:09:32,436, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:09:37,778, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:09:38,308, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:09:40,570, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:09:40,571, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:09:42,261, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:09:42,794, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:09:45,148, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:09:45,149, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:09:50,615, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:09:51,305, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:09:53,713, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:09:53,715, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:09:56,607, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:09:57,212, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:09:59,496, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:09:59,497, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:10:07,331, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:10:07,931, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:10:10,405, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:10:10,406, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:10:14,542, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:10:15,151, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:10:17,729, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:10:17,731, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:10:31,818, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:10:32,532, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:10:34,915, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:10:34,917, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:10:37,808, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:10:38,366, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:10:40,781, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:10:40,782, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:10:42,443, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:10:43,140, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:10:45,627, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:10:45,629, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:10:57,433, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:10:58,056, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:11:00,623, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:11:00,625, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:11:07,402, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:11:08,078, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:11:10,586, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:11:10,587, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:11:17,229, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:11:18,018, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:11:20,396, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:11:20,398, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:11:23,324, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:11:23,786, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:11:26,175, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:11:26,176, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:11:27,821, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:11:28,384, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:11:30,908, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:11:30,909, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:11:32,585, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:11:33,037, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:11:35,505, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:11:35,506, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:11:37,196, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:11:37,811, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:11:40,232, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:11:40,233, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:11:43,148, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:11:43,762, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:11:46,168, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:11:46,170, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:11:47,887, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:11:48,632, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:11:51,071, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:11:51,073, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:12:10,279, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:12:10,803, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:12:13,203, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:12:13,204, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:12:18,651, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:12:19,144, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:12:21,493, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:12:21,494, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:12:33,359, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:12:33,823, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:12:36,355, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:12:36,357, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:12:38,088, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:12:38,569, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:12:41,028, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:12:41,029, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:12:48,936, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:12:49,415, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:12:51,733, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:12:51,734, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:13:01,964, File: service.py:219, Function: _start_process] DEBUG -  Started executable: `/snap/bin/geckodriver` in a child process with pid: 118172 using 0 to output -3
+[Time: 2024-04-30 17:13:02,311, File: remote_connection.py:301, Function: execute] DEBUG -  POST http://localhost:33305/session {'capabilities': {'firstMatch': [{}], 'alwaysMatch': {'browserName': 'firefox', 'acceptInsecureCerts': True, 'moz:debuggerAddress': True, 'pageLoadStrategy': <PageLoadStrategy.normal: 'normal'>, 'moz:firefoxOptions': {'args': ['--headless', '--disable-gpu']}}}}
+[Time: 2024-04-30 17:13:02,313, File: connectionpool.py:244, Function: _new_conn] DEBUG -  Starting new HTTP connection (1): localhost:33305
+[Time: 2024-04-30 17:13:05,314, File: connectionpool.py:549, Function: _make_request] DEBUG -  http://localhost:33305 "POST /session HTTP/1.1" 200 0
+[Time: 2024-04-30 17:13:05,315, File: remote_connection.py:330, Function: _request] DEBUG -  Remote response: status=200 | data={"value":{"sessionId":"581caf5c-ecfc-4102-8e35-9977e38f21d5","capabilities":{"browserName":"firefox","browserVersion":"125.0.3","platformName":"linux","acceptInsecureCerts":true,"pageLoadStrategy":"normal","setWindowRect":true,"timeouts":{"implicit":0,"pageLoad":300000,"script":30000},"strictFileInteractability":false,"unhandledPromptBehavior":"dismiss and notify","userAgent":"Mozilla/5.0 (X11; Linux x86_64; rv:125.0) Gecko/20100101 Firefox/125.0","moz:accessibilityChecks":false,"moz:buildID":"20240427193319","moz:debuggerAddress":"127.0.0.1:45563","moz:headless":true,"moz:platformVersion":"5.15.146.1-microsoft-standard-WSL2","moz:processID":118246,"moz:profile":"/tmp/rust_mozprofilep4yZCp","moz:shutdownTimeout":60000,"moz:webdriverClick":true,"moz:windowless":false,"proxy":{},"moz:geckodriverVersion":"0.34.0"}}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '824', 'date': 'Tue, 30 Apr 2024 21:13:02 GMT'})
+[Time: 2024-04-30 17:13:05,316, File: remote_connection.py:357, Function: _request] DEBUG -  Finished Request
+[Time: 2024-04-30 17:13:05,316, File: testapp.py:44, Function: test] DEBUG -  Starting test, attempting to access {app_address}
+[Time: 2024-04-30 17:13:05,317, File: remote_connection.py:301, Function: execute] DEBUG -  POST http://localhost:33305/session/581caf5c-ecfc-4102-8e35-9977e38f21d5/url {'url': 'http://localhost:8080'}
+[Time: 2024-04-30 17:13:05,346, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:13:05] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 17:13:05,464, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:13:05] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 17:13:05,466, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:13:05] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 17:13:05,476, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:13:05] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 17:13:05,510, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:13:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 17:13:05,515, File: connectionpool.py:549, Function: _make_request] DEBUG -  http://localhost:33305 "POST /session/581caf5c-ecfc-4102-8e35-9977e38f21d5/url HTTP/1.1" 200 0
+[Time: 2024-04-30 17:13:05,516, File: remote_connection.py:330, Function: _request] DEBUG -  Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 30 Apr 2024 21:13:05 GMT'})
+[Time: 2024-04-30 17:13:05,517, File: remote_connection.py:357, Function: _request] DEBUG -  Finished Request
+[Time: 2024-04-30 17:13:05,518, File: testapp.py:51, Function: test] DEBUG -  Waiting for input element
+[Time: 2024-04-30 17:13:05,518, File: remote_connection.py:301, Function: execute] DEBUG -  POST http://localhost:33305/session/581caf5c-ecfc-4102-8e35-9977e38f21d5/element {'using': 'css selector', 'value': '[id="name"]'}
+[Time: 2024-04-30 17:13:05,538, File: connectionpool.py:549, Function: _make_request] DEBUG -  http://localhost:33305 "POST /session/581caf5c-ecfc-4102-8e35-9977e38f21d5/element HTTP/1.1" 200 0
+[Time: 2024-04-30 17:13:05,539, File: remote_connection.py:330, Function: _request] DEBUG -  Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"fd48dbb3-b509-4160-94d6-98396762f8d2"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Tue, 30 Apr 2024 21:13:05 GMT'})
+[Time: 2024-04-30 17:13:05,540, File: remote_connection.py:357, Function: _request] DEBUG -  Finished Request
+[Time: 2024-04-30 17:13:05,540, File: remote_connection.py:301, Function: execute] DEBUG -  POST http://localhost:33305/session/581caf5c-ecfc-4102-8e35-9977e38f21d5/element/fd48dbb3-b509-4160-94d6-98396762f8d2/value {'text': '28348\ue006', 'value': ['2', '8', '3', '4', '8', '\ue006']}
+[Time: 2024-04-30 17:13:05,608, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 17:13:05,613, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 17:13:05,654, File: connectionpool.py:549, Function: _make_request] DEBUG -  http://localhost:33305 "POST /session/581caf5c-ecfc-4102-8e35-9977e38f21d5/element/fd48dbb3-b509-4160-94d6-98396762f8d2/value HTTP/1.1" 200 0
+[Time: 2024-04-30 17:13:05,655, File: remote_connection.py:330, Function: _request] DEBUG -  Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 30 Apr 2024 21:13:05 GMT'})
+[Time: 2024-04-30 17:13:05,656, File: remote_connection.py:357, Function: _request] DEBUG -  Finished Request
+[Time: 2024-04-30 17:13:05,656, File: testapp.py:60, Function: test] DEBUG -  Waiting for answer element
+[Time: 2024-04-30 17:13:06,085, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 17:13:06,089, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 17:13:06,090, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 17:13:06,091, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 17:13:06,094, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 17:13:06,333, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:13:06,588, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:13:06,643, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:13:07,677, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:13:08,998, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:13:08] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 17:13:20,667, File: remote_connection.py:301, Function: execute] DEBUG -  POST http://localhost:33305/session/581caf5c-ecfc-4102-8e35-9977e38f21d5/element {'using': 'css selector', 'value': '[id="Location"]'}
+[Time: 2024-04-30 17:13:20,679, File: connectionpool.py:549, Function: _make_request] DEBUG -  http://localhost:33305 "POST /session/581caf5c-ecfc-4102-8e35-9977e38f21d5/element HTTP/1.1" 200 0
+[Time: 2024-04-30 17:13:20,680, File: remote_connection.py:330, Function: _request] DEBUG -  Remote response: status=200 | data={"value":{"element-6066-11e4-a52e-4f735466cecf":"018eb45f-d932-4fc9-ad7f-9165b8a54fbe"}} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '88', 'date': 'Tue, 30 Apr 2024 21:13:20 GMT'})
+[Time: 2024-04-30 17:13:20,681, File: remote_connection.py:357, Function: _request] DEBUG -  Finished Request
+[Time: 2024-04-30 17:13:20,681, File: remote_connection.py:301, Function: execute] DEBUG -  GET http://localhost:33305/session/581caf5c-ecfc-4102-8e35-9977e38f21d5/element/018eb45f-d932-4fc9-ad7f-9165b8a54fbe/text {}
+[Time: 2024-04-30 17:13:20,700, File: connectionpool.py:549, Function: _make_request] DEBUG -  http://localhost:33305 "GET /session/581caf5c-ecfc-4102-8e35-9977e38f21d5/element/018eb45f-d932-4fc9-ad7f-9165b8a54fbe/text HTTP/1.1" 200 0
+[Time: 2024-04-30 17:13:20,701, File: remote_connection.py:330, Function: _request] DEBUG -  Remote response: status=200 | data={"value":"Location: Hope Mills, NC"} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '36', 'date': 'Tue, 30 Apr 2024 21:13:20 GMT'})
+[Time: 2024-04-30 17:13:20,701, File: remote_connection.py:357, Function: _request] DEBUG -  Finished Request
+[Time: 2024-04-30 17:13:20,702, File: testapp.py:69, Function: test] DEBUG -  Closing browser.
+[Time: 2024-04-30 17:13:20,703, File: remote_connection.py:301, Function: execute] DEBUG -  DELETE http://localhost:33305/session/581caf5c-ecfc-4102-8e35-9977e38f21d5 {}
+[Time: 2024-04-30 17:13:21,689, File: connectionpool.py:549, Function: _make_request] DEBUG -  http://localhost:33305 "DELETE /session/581caf5c-ecfc-4102-8e35-9977e38f21d5 HTTP/1.1" 200 0
+[Time: 2024-04-30 17:13:21,690, File: remote_connection.py:330, Function: _request] DEBUG -  Remote response: status=200 | data={"value":null} | headers=HTTPHeaderDict({'content-type': 'application/json; charset=utf-8', 'cache-control': 'no-cache', 'content-length': '14', 'date': 'Tue, 30 Apr 2024 21:13:20 GMT'})
+[Time: 2024-04-30 17:13:21,691, File: remote_connection.py:357, Function: _request] DEBUG -  Finished Request
+[Time: 2024-04-30 17:13:21,697, File: testapp.py:76, Function: test] DEBUG -  Comparing Hope Mills with <selenium.webdriver.remote.webelement.WebElement (session="581caf5c-ecfc-4102-8e35-9977e38f21d5", element="018eb45f-d932-4fc9-ad7f-9165b8a54fbe")>
+[Time: 2024-04-30 17:16:21,821, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:16:22,796, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:16:25,145, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:16:25,146, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:16:26,878, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:16:27,419, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:16:29,950, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:16:29,952, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:16:40,217, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:16:40] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 17:16:40,340, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:16:40] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 17:16:40,342, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:16:40] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 17:16:40,353, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:16:40] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 17:16:40,383, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:16:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 17:16:40,505, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 17:16:40,512, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 17:16:40,897, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 17:16:40,901, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 17:16:40,902, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 17:16:40,903, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 17:16:40,907, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 17:16:41,179, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:16:41,501, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:16:41,546, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:16:43,202, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:16:45,085, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:16:45] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 17:18:07,798, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:18:08,463, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:18:11,000, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:18:11,001, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:18:41,934, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:18:42,420, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:18:45,052, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:18:45,054, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:18:49,385, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:18:49,982, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:18:52,443, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:18:52,444, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:19:02,757, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:19:02] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 17:19:02,848, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:19:02] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 17:19:02,849, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:19:02] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 17:19:02,859, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:19:02] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 17:19:02,891, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:19:02] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 17:19:02,993, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 17:19:02,997, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 17:19:03,588, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 17:19:03,604, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 17:19:03,605, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 17:19:03,606, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 17:19:03,609, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 17:19:03,876, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:19:04,145, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:19:04,195, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:19:05,489, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:19:07,894, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:19:07] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 17:20:08,663, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/testapp.py', reloading
+[Time: 2024-04-30 17:20:09,349, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:20:12,083, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:20:12,084, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:21:11,681, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:21:11] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 17:21:11,779, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:21:11] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 17:21:11,780, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:21:11] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 17:21:11,790, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:21:11] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 17:21:11,821, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:21:11] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 17:21:11,915, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 17:21:11,920, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 17:21:12,255, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 17:21:12,258, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 17:21:12,260, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 17:21:12,260, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 17:21:12,264, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 17:21:12,525, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:21:12,795, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:21:12,853, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:21:14,181, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:21:16,460, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:21:16] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 17:21:53,518, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/test_logs.py', reloading
+[Time: 2024-04-30 17:21:54,336, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:21:56,997, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:21:56,999, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697
+[Time: 2024-04-30 17:22:16,738, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:22:16] "GET / HTTP/1.1" 200 -
+[Time: 2024-04-30 17:22:16,828, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:22:16] "GET /style.css HTTP/1.1" 200 -
+[Time: 2024-04-30 17:22:16,829, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:22:16] "GET /script.js HTTP/1.1" 200 -
+[Time: 2024-04-30 17:22:16,839, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:22:16] "GET /weather-images.jpg HTTP/1.1" 200 -
+[Time: 2024-04-30 17:22:16,869, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:22:16] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[Time: 2024-04-30 17:22:16,960, File: weather.py:17, Function: get_weather] DEBUG -  Getting weather for 28348
+[Time: 2024-04-30 17:22:16,964, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): us-weather-by-zip-code.p.rapidapi.com:443
+[Time: 2024-04-30 17:22:17,431, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://us-weather-by-zip-code.p.rapidapi.com:443 "GET /getweatherzipcode?zip=28348 HTTP/1.1" 200 351
+[Time: 2024-04-30 17:22:17,434, File: weather.py:14, Function: __init__] INFO -  Weather for 28348 retrieved
+[Time: 2024-04-30 17:22:17,435, File: weather.py:39, Function: verbal_weather] DEBUG -  Verbose message requested for 28348
+[Time: 2024-04-30 17:22:17,435, File: weather.py:40, Function: verbal_weather] DEBUG -  Weather is Fair and a temperature is 65.0 degrees Fahrenheit with 81% humidity.
+[Time: 2024-04-30 17:22:17,439, File: connectionpool.py:1055, Function: _new_conn] DEBUG -  Starting new HTTPS connection (1): huggingface.co:443
+[Time: 2024-04-30 17:22:17,774, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/tokenizer_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:22:18,078, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:22:18,153, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:22:19,159, File: connectionpool.py:549, Function: _make_request] DEBUG -  https://huggingface.co:443 "HEAD /google/flan-t5-base/resolve/main/generation_config.json HTTP/1.1" 200 0
+[Time: 2024-04-30 17:22:20,976, File: _internal.py:96, Function: _log] INFO -  127.0.0.1 - - [30/Apr/2024 17:22:20] "GET /get_weather?zip=28348 HTTP/1.1" 200 -
+[Time: 2024-04-30 17:23:30,926, File: _internal.py:96, Function: _log] INFO -   * Detected change in '/mnt/d/GlobalDevExperts_DevOps/GDE_WebProject/app.py', reloading
+[Time: 2024-04-30 17:23:31,667, File: _internal.py:96, Function: _log] INFO -   * Restarting with stat
+[Time: 2024-04-30 17:23:34,536, File: _internal.py:96, Function: _log] WARNING -   * Debugger is active!
+[Time: 2024-04-30 17:23:34,537, File: _internal.py:96, Function: _log] INFO -   * Debugger PIN: 420-367-697

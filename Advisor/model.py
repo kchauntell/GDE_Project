@@ -1,7 +1,7 @@
 from typing import Any
 from transformers import T5ForConditionalGeneration, T5Tokenizer
 import torch
-from weather import getWeather
+from WeatherApp.weather import getWeather
 
 class tierOneModel():
     def __init__(self):

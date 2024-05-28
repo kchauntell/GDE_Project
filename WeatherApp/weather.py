@@ -1,6 +1,6 @@
 import requests
-import config as cfg
-from logs import logger
+import WeatherApp.config as cfg
+from WeatherApp.logs import logger
 
 class getWeather():
     def __init__(self,zip):

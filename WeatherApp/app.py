@@ -1,6 +1,6 @@
 from flask import Flask, make_response, jsonify, request
-from weather import getWeather
-from model import tierOneModel
+from WeatherApp.weather import getWeather
+from Advisor.model import tierOneModel
 
 app = Flask(__name__)
 

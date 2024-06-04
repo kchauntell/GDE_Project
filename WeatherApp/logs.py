@@ -1,6 +1,6 @@
 import logging
 import sys
-import WeatherApp.config as cfg
+import config as cfg
 config = cfg.get_config()
 
 log_level = config['logging']['log_level'].upper()

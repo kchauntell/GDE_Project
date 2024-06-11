@@ -19,6 +19,10 @@ def get_recommendation (context):
     response = requests.post(url, headers=headers, json=data)
     return response.json()['answer']
 
+@app.route('/health', methods=['GET'])
+def healthCheck():
+    return make_response(jsonify({'status': 'Health in Good Status'}), 200)
+
 @app.route('/', methods=['GET'])
 def main():
     return app.send_static_file('main.html')
@@ -33,7 +37,7 @@ def get_weather():
     weather = getWeather(zip)
     context = weather.verbal_weather()
     # model = tierOneModel()
-    answer = 'Model not present...'
+    answer = get_recommendation(context)
     report = weather.weather_report()
     report['suggestion'] = answer
     return jsonify(report)
@@ -44,7 +48,7 @@ def get_weather_url(zip):
     weather = getWeather(zip)
     context = weather.verbal_weather()
     # model = tierOneModel()
-    answer = 'Model not present'
+    answer = get_recommendation(context)
     report = weather.weather_report()
     report['suggestion'] = answer
     return jsonify(report)

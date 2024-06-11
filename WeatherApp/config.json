@@ -9,7 +9,8 @@
         "logging": {
             "log_level": "INFO",
             "log_file": "weather.log"
-        }
+        },
+        "recommendation_app":"http://localhost:8081"
     },
     "dev": {
         "weather_api":
@@ -21,7 +22,8 @@
         "logging": {
             "log_level": "DEBUG",
             "log_file": "weather.log"
-        }
+        },
+        "recommendation_app":"http://localhost:8081"
     },
     "testing": {
         "weather_api":
@@ -33,7 +35,8 @@
         "logging": {
             "log_level": "DEBUG",
             "log_file": "weather.log"
-        }
+        },
+        "recommendation_app":"http://localhost:8081"
     }
     
     

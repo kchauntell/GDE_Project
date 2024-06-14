@@ -37,7 +37,8 @@ def get_weather():
     weather = getWeather(zip)
     context = weather.verbal_weather()
     # model = tierOneModel()
-    answer = get_recommendation(context)
+    # answer = get_recommendation(context) //we are not using model yet
+    answer = 'model is down at this time'
     report = weather.weather_report()
     report['suggestion'] = answer
     return jsonify(report)
@@ -48,7 +49,8 @@ def get_weather_url(zip):
     weather = getWeather(zip)
     context = weather.verbal_weather()
     # model = tierOneModel()
-    answer = get_recommendation(context)
+    # answer = get_recommendation(context) //we are not using model yet 
+    answer = 'model is down at this time'
     report = weather.weather_report()
     report['suggestion'] = answer
     return jsonify(report)

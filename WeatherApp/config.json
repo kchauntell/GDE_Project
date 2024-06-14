@@ -3,7 +3,7 @@
         "weather_api":
         {
             "url":"https://us-weather-by-zip-code.p.rapidapi.com/getweatherzipcode",
-            "rapidapi_key":"",
+            "rapidapi_key":"API_KEY",
             "rapidapi_host": "us-weather-by-zip-code.p.rapidapi.com"
         },
         "logging": {
@@ -16,7 +16,7 @@
         "weather_api":
         {
             "url":"https://us-weather-by-zip-code.p.rapidapi.com/getweatherzipcode",
-            "rapidapi_key":"",
+            "rapidapi_key":"API_KEY",
             "rapidapi_host": "us-weather-by-zip-code.p.rapidapi.com"
         },
         "logging": {
@@ -29,7 +29,7 @@
         "weather_api":
         {
             "url":"https://us-weather-by-zip-code.p.rapidapi.com/getweatherzipcode",
-            "rapidapi_key":"",
+            "rapidapi_key":"API_KEY",
             "rapidapi_host": "us-weather-by-zip-code.p.rapidapi.com"
         },
         "logging": {

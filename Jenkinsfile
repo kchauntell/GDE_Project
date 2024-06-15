@@ -58,6 +58,28 @@ pipeline {
   }
 }
 
+  post {
+    success {
+      echo 'Success - Build complete!'
+      script {
+        withCredentials([usernamePassword(credentialsId: 'docker', usernameVariable: 'DOCKER_USER', passwordVariable: 'DOCKER_PASS')]) {
+          sh """
+          echo ${DOCKER_PASS} | sudo docker login -u ${DOCKER_USER} --password-stdin
+          sudo docker tag gde_project:${fullCommitId} kchauntell/advisor:${fullCommitId}
+          sudo docker push kchauntell/advisor:${fullCommitId}
+          """
+        }
+      }
+    }
+    failure {
+      echo 'Error - Build Failure!'
+    }
+    always {
+      sh 'sudo docker rm -f $(sudo docker ps -aq)'
+      echo 'This will always run after the stages, regardless of the result.'
+    }
+  }
+}
 
 //command 1> /dev/null stdout
 //command 2> /dev/null stderr

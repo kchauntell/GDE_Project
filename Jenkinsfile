@@ -33,7 +33,7 @@ pipeline {
           echo "Commit ID is ${commitId}"
         }
         sh """
-        sed -i 's/API_KEY/578baeb814msh73dfb7a63dcf3eep142fa2jsn35d1c6fdc34a/g' config.json
+        sed -i 's/API_KEY/[Enter API_KEY]/g' config.json
         sudo docker build -t gde_project:${fullCommitId} . 1> /dev/null
         sudo docker run --name gde_projectci -p 8080:8080 -d gde_project:${fullCommitId}
         """

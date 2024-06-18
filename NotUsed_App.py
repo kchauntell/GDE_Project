@@ -1,6 +1,6 @@
 from flask import Flask, make_response, jsonify, request
 import os
-from weather import getWeather
+from WeatherApp.weather import getWeather
 local_storage = "store"
 app = Flask(__name__)
 

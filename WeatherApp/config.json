@@ -3,37 +3,40 @@
         "weather_api":
         {
             "url":"https://us-weather-by-zip-code.p.rapidapi.com/getweatherzipcode",
-            "rapidapi_key":"",
+            "rapidapi_key":"API_KEY",
             "rapidapi_host": "us-weather-by-zip-code.p.rapidapi.com"
         },
         "logging": {
             "log_level": "INFO",
             "log_file": "weather.log"
-        }
+        },
+        "recommendation_app":"http://localhost:8081"
     },
     "dev": {
         "weather_api":
         {
             "url":"https://us-weather-by-zip-code.p.rapidapi.com/getweatherzipcode",
-            "rapidapi_key":"",
+            "rapidapi_key":"API_KEY",
             "rapidapi_host": "us-weather-by-zip-code.p.rapidapi.com"
         },
         "logging": {
             "log_level": "DEBUG",
             "log_file": "weather.log"
-        }
+        },
+        "recommendation_app":"http://localhost:8081"
     },
     "testing": {
         "weather_api":
         {
             "url":"https://us-weather-by-zip-code.p.rapidapi.com/getweatherzipcode",
-            "rapidapi_key":"",
+            "rapidapi_key":"API_KEY",
             "rapidapi_host": "us-weather-by-zip-code.p.rapidapi.com"
         },
         "logging": {
             "log_level": "DEBUG",
             "log_file": "weather.log"
-        }
+        },
+        "recommendation_app":"http://localhost:8081"
     }
     
     

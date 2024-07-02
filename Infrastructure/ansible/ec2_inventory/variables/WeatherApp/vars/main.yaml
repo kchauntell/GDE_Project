@@ -1,1 +1,1 @@
-docker_image_name: kchauntell/advisor
+docker_image_name: kchauntell/advisor:1.0.0

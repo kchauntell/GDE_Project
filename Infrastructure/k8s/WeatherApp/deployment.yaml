@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: weatherapp-deployment
+  labels:
+    app: my-app
+spec:
+  replicas: 2  # Number of replicas
+  selector:
+    matchLabels:
+      app: weatherapp
+  template:
+    metadata:
+      labels:
+        app: weatherapp
+    spec:
+      containers:
+      - name: weatherapp-container
+        image: kchauntell/advisor:1.0.0
+        ports:
+        - containerPort: 8080

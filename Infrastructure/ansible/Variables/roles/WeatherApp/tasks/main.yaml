@@ -1,0 +1,16 @@
+---
+- name: pull image
+  docker_image:
+    name: kchauntell/advisor:***** # Need to get info 
+    source: pull
+    state: present
+
+- name: run container
+  docker_container:
+    name: advisor
+    image: kchauntell/advisor:***** # Need to get info 
+    state: started
+    ports:
+      - "8080:8080"
+    restart_policy: always
+    detach: yes

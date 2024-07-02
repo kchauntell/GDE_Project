@@ -1,0 +1,13 @@
+[Unit]
+Description=Jenkins Agent
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=5
+User=ubuntu
+ExecStart=/usr/bin/java -jar /jenkins_home/agent.jar -url {{ jenkins_base_url}}/ -secret {{ jenkins_secret }} -name docker -workDir "/jenkins_home"
+
+[Install]
+WantedBy=multi-user.target

@@ -1,0 +1,10 @@
+- hosts: all
+  become: yes
+  roles:
+    - hostname
+    - docker
+
+- hosts: ec2_name_weatherapp
+  become: yes
+  roles:
+    - weatherapp

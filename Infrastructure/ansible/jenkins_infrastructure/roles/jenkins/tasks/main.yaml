@@ -1,0 +1,37 @@
+---
+- name: create jenkins_home directory and set permissions
+  file:
+    path: /var/jenkins_home
+    state: directory
+    mode: 0777
+    owner: 1000
+  
+# - copy:
+#     src: jenkins_home.tar
+#     dest: /tmp/jenkins_home.tar
+#     remote_src: no
+
+# - name: untar jenkins_home
+#   command: tar -xvf /tmp/jenkins_home.tar -C /
+
+- name: Update Jenkins base URL
+  command: sed -i 's#http://18.217.199.81:8080#{{ jenkins_base_url }}#g' /var/jenkins_home/jenkins.model.JenkinsLocationConfiguration.xml
+
+- name: pull image
+  docker_image:
+    name: jenkins/jenkins
+    source: pull
+    state: present
+
+- name: run container
+  docker_container:
+    name: jenkins
+    image: jenkins/jenkins
+    state: started
+    ports:
+      - "8080:8080"
+      - "50000:50000"
+    restart_policy: always
+    detach: yes
+    volumes:
+      - /var/jenkins_home:/var/jenkins_home

@@ -1,14 +1,14 @@
 ---
 - name: pull image
   docker_image:
-    name: kchauntell/advisor:**** # Need to retrieve
+    name: kchauntell/advisor:1.0.0
     source: pull
     state: present
 
 - name: run container
   docker_container:
     name: advisor
-    image: kchauntell/advisor:**** # Need to retrieve
+    image: kchauntell/advisor:1.0.0
     state: started
     ports:
       - "8080:8080"

@@ -8,7 +8,7 @@
 - name: run container
   docker_container:
     name: advisor
-    image: kchauntell/advisor:***** #need to get
+    image: kchauntell/advisor:1.0.0
     state: started
     ports:
       - "8080:8080"

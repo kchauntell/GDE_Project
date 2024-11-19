@@ -1,4 +1,4 @@
-from flask import Flask, make_response, jsonify, request
+from flask import Flask, make_response, jsonify, request,render_template
 from weather import getWeather
 import requests
 # from Advisor.model import tierOneModel
@@ -19,8 +19,16 @@ def get_recommendation (context):
     response = requests.post(url, headers=headers, json=data)
     return response.json()['answer']
 
+@app.route('/register', methods=['GET','POST'])
+def register():
+    return render_template('register.html')
+
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    return render_template('login.html')
+
 @app.route('/health', methods=['GET'])
-def healthCheck():
+def health_check():
     return make_response(jsonify({'status': 'Health in Good Status'}), 200)
 
 @app.route('/', methods=['GET'])

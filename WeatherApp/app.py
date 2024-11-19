@@ -20,7 +20,7 @@ def get_recommendation (context):
     return response.json()['answer']
 
 @app.route('/health', methods=['GET'])
-def healthCheck():
+def health_check():
     return make_response(jsonify({'status': 'Health in Good Status'}), 200)
 
 @app.route('/', methods=['GET'])

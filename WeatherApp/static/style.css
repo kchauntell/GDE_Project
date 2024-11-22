@@ -53,6 +53,26 @@ form {
     margin-top: 20px;
 }
 
+#logout {
+    text-align: right;
+    padding: 15px;
+    padding-bottom: 20px;
+}
+
+a {
+    background-color: #7c0b0b;
+    display:fixed;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    -webkit-box-reflect:below 1px linear-gradient(transparent, #0005);
+    box-shadow: 0 0 5px #f3120a, 0 0 15px #f3120a, 0 0 2px #f3120a, 0 0 100px #f3120a;
+}
+
 input[type="text"] {
     padding: 10px;
     margin-top: 5px;
@@ -66,6 +86,8 @@ input[type="submit"] {
     color: white;
     padding: 10px 20px;
     border: none;
+    font-size: 20px;
+    width: 150px;
     border-radius: 5px;
     cursor: pointer;
     margin-top: 10px;

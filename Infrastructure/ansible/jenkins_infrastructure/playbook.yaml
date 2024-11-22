@@ -1,0 +1,39 @@
+- hosts: all
+  become: yes
+  gather_facts: no
+  tasks:
+    - name: pause for 30 seconds
+      pause:
+        seconds: 30
+
+    - name: Wait for the instance to be reachable
+      wait_for_connection:
+        timeout: 300
+
+    - name: Gather facts manually
+      setup:
+
+  roles:
+    - hostname
+    - docker
+
+- hosts: ec2_name_jenkins_main
+  become: yes
+  gather_facts: yes
+  tasks:
+    - name: Set Jenkins master IP as a fact
+      set_fact:
+        jenkins_master_ip: "{{ ansible_host }}"
+  vars:
+    jenkins_base_url: "{{ ansible_host }}"
+
+  roles:
+    - jenkins
+
+- hosts: ec2_name_jenkins_agent
+  become: yes
+  vars:
+    jenkins_base_url: "http://{{ hostvars['ec2_name_jenkins_main'].jenkins_master_ip }}:8080"
+    jenkins_secret: "" #need to add jenkins secret
+  roles:
+    - jenkins-agent

@@ -1,0 +1,36 @@
+---
+- name : Update apt cache
+  apt:
+    update_cache: yes
+
+- name: Install Java
+  apt:
+    name: openjdk-11-jre
+    state: present
+
+- name: create directory
+  file:
+    path: /var/jenkins_home
+    state: directory
+    mode: 0777
+    owner: 1000
+
+- name: Download agent
+  get_url:
+    url: "{{ jenkins_base_url }}/jnlpJars/agent.jar"
+    dest: /var/jenkins_home/agent.jar
+
+- name: Create unit file
+  template:
+    src: jenkins-agent.service.j2
+    dest: /etc/systemd/system/jenkins-agent.service
+
+- name: Reload systemd
+  systemd:
+    daemon_reload: yes
+    
+- name: Start and enable service
+  systemd:
+    name: jenkins-agent
+    state: started
+    enabled: yes

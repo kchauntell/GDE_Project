@@ -1,0 +1,4 @@
+---
+- name: Update hostname
+  hostname:
+    name: "{{ instance_name }}"

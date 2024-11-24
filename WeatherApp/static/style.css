@@ -2,7 +2,7 @@ body {
     font-family: 'Arial', sans-serif;
     background-color: #383a3b;
     color: #272626;
-    margin: 59x;
+    margin: 59px;
     padding: 20px;
 }
 
@@ -108,20 +108,6 @@ button {
     cursor: pointer;
 }
 
-/* button:hover {
-    background-color: #272626;
-} */
-
-/* .spinner {
-    border: 4px solid rgba(255, 255, 255, 0.1);
-    border-top-color: #09f;
-    border-radius: 50%;
-    animation: spin 1s ease infinite;
-    height: 40px;
-    width: 40px;
-    margin: 20px auto;
-} */
-
 .spinner {
     left: 48%;
     margin-top: 30px;
@@ -163,8 +149,3 @@ button {
     0% { transform: rotate(0deg); }
     100% { transform: rotate(360deg); }
 }
-/* @keyframes spin {
-    to {
-        transform: rotate(360deg);
-    }
-} */
